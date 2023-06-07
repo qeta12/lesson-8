@@ -1,0 +1,234 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 83px 136px;
+}
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 38px;
+    margin-right: 321px;
+}
+nav li a {
+    text-transform: uppercase;
+    color: #3D37F1;
+    font-size: 20px;
+    font-family: 'Lato';
+    font-weight: 700;
+}
+nav li a:hover {
+    text-decoration: underline;
+}
+#home-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 42px;
+    width: 100%;
+    margin-left: 126px;
+    margin-right: 80px;
+}
+.text-container {
+    width: 602px;
+    height: 188px;
+}
+.text-container {
+    margin-bottom: 156px;
+}
+.text-container h2 {
+    font-size: 78px;
+    color: #534D4D;
+    font-family: 'lato';
+    font-weight: 700;
+    /* margin-bottom: 42px; */
+
+}
+#home-container p {
+    font-size: 22px;
+    color: #534D4D;
+    font-family: 'lato';
+    font-weight: 400;
+}
+.home-text-container .text-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 42px;
+}
+.home-text-container button {
+    background-color: #3D37F1;
+    border-radius: 38px;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 20px 50px;
+    cursor: pointer;
+}
+.home-text-container button img {
+    margin-right: 25.71px;
+}
+.home-text-container button span {
+    color: #FFFFFF;
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.picture {
+    width: 801px;
+    margin-right: 80px;
+}
+
+#services {
+    width: 100%;
+    background-color: #FBFCFD;
+    padding: 78px 375px 163px;
+    margin-top: 296px;
+}
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.heading p {
+    color: #3D37F1;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-weight: 700;
+    text-align: center;
+}
+.heading h2 {
+    color: #5A5454;
+    font-size: 40px;
+    font-family: 'Lato';
+    font-weight: 400;
+    text-align: center;
+}
+.heading span {
+    width: 712px;
+    color: #747474;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    text-align: center;
+    line-height: 21px;
+}
+ .cards {
+    margin-top: 67px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 60px;
+}
+.card-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 29px;
+}
+.card {
+    width: 370px;
+    height: 451px;
+    padding: 88px 135px;
+    background: linear-gradient(180deg, #FBBA77 0%, #DFA871 100%);
+}
+
+.card-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 37px;
+}
+.card-text h2 {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-top: 57px;
+    margin-bottom: 13px;
+    font-family: 'Lato';
+    font-weight: 400;
+}
+.card-text p {
+    width: 300px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'roboto';
+    font-weight: 400;
+}
+.card-text a {
+    background-color: #FFFFFF;
+    width: 131px;
+    height: 45px;
+    text-align: center;
+    border-radius: 23px;
+    padding-top: 14px;
+    color: #4B647E;
+    font-size: 15px;
+    font-family: 'roboto';
+    font-weight: 400;
+}
+.card-1 {
+    background: linear-gradient(180deg, #41EAE3 0%, #2293B7 100%);
+    width: 370px;
+    height: 451px;
+    padding: 88px 135px;
+}
+.card-text .pointer {
+    background: linear-gradient(180deg, #41EAE3 0%, #2293B7 100%);
+    color: #FFFFFF;
+    border-color: white;
+    border: 1px;
+}
+.card-2 {
+    background: linear-gradient(180deg, #69529F 0%, #463864 100%);
+    width: 370px;
+    height: 451px;
+    padding: 88px 135px;
+}
+.card-2 h2 {
+    font-size: 16px;
+}
+.card-text .color {
+    background: linear-gradient(180deg, #69529F 0%, #463864 100%);
+    color: #FFFFFF;
+    border-color: white;
+    border: 1px;
+}
+.cards-2 {
+    margin-top: 67px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 60px;
+}
+.cards-2 .card {
+    background: linear-gradient(180deg, #4386D2 0%, #0962C5 100%);
+    width: 370px;
+    height: 451px;
+    padding: 88px 135px;
+}
+.cards-2 .card-1 {
+    background: linear-gradient(180deg, #A5A2F6 0%, #564FD6 100%);
+    width: 370px;
+    height: 451px;
+    padding: 88px 135px;
+}
+.cards-2 .card-2 {
+    background: linear-gradient(180deg, #FF8088 0%, #984141 100%);;
+    width: 370px;
+    height: 451px;
+    padding: 88px 135px;
+}
