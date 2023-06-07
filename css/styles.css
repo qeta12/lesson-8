@@ -232,3 +232,9 @@ nav li a:hover {
     height: 451px;
     padding: 88px 135px;
 }
+@media only screen and (max-width: 1180px) {
+        .cards {
+        flex-wrap: wrap;
+        width: 375px;
+    } 
+}
