@@ -240,6 +240,10 @@ nav li a:hover {
     .burger-icon {
         display: block !important;
     }
+    #home-text-container {
+        flex-wrap: wrap;
+        width: 350px;
+    }
 
 }
 @media only screen and (max-width: 1180px) {
